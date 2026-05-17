@@ -65,22 +65,6 @@ The Nelder-Mead threshold optimization successfully shifted the classification b
 * **Validation Set:** 588 entries
 * **Test Set:** Strictly withheld during development to prevent data leakage.
 
-## Directory Structure
-
-```text
-├── data/                      <- dataset folder (JSON files)
-├── notebooks/                 <- Jupyter notebooks
-│   ├── EDA.ipynb              <- Exploratory Data Analysis
-│   ├── WSD_Final_Colab.ipynb  <- Testing playground and old architecture logs
-│   └── Group02_final_code.ipynb <- Final submission notebook with Nelder-Mead optimization
-├── src/                       <- Source code modules
-│   ├── data_loader.py         <- Data parsing, splitting, and tokenization
-│   ├── feature_extraction.py  <- DeBERTa initialization
-│   ├── custom_losses.py       <- Multi-objective PyTorch loss classes
-│   └── evaluation.py          <- Metrics (Acc@std, Spearman, F1, Confusion Matrix)
-├── README.md                  <- Project documentation
-└── requirements.txt           <- Required Python packages
-```
 
 ## Team Members & Roles
 
